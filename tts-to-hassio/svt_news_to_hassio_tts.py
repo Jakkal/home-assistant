@@ -41,5 +41,5 @@ mydata = '{"entity_id": "media_player.kok", "message": "' + fullfeed + '" }'
 response = post(url, headers=myheaders, data=mydata)
 
 #Remove creaded file
-cmd = "rm rss*.xml"
+cmd = "rm rss_file"
 os.system(cmd)
